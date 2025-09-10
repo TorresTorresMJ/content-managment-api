@@ -11,6 +11,9 @@ class ContentCategory(str, Enum):
     FOOD = "food"
     ART = "art"
     EDUCATION = "education"
+    STYLE = "style"
+    SCIENCE = "science"
+    CLEAN = "clean"
 
 # Modelo principal de contenido
 class Content(SQLModel, table=True):
